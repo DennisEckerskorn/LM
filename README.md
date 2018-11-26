@@ -78,8 +78,9 @@
 </html> 
 
 ##Que diferencia hay entre una clase y una ID
-#Una ID es una etiqueta que debe de ser única. Los diferentes identificadores deben de ser únicos.
-#Una clase se puede aplicar a 
+#Una ID es una etiqueta que debe de ser única en el documento. Los diferentes identificadores deben de ser únicos.
+
+#Las clases definen un mismo estilo para varios elementos.
 <html>
     
 ```
