@@ -1,6 +1,6 @@
 # LM
-##Estructura mínima de una web
 ```html
+##Estructura mínima de una web
 <html>
     <head>
     
