@@ -13,8 +13,8 @@
 </html>
 
 ##Explica las 3 formas de usar css en html
-<!-- Externa: -->
-<!-- Se guarda el .css en un archivo separado con la extensión .css. Cuando un .css es usado de forma externa, se aplica el .css (estilo) a toda la página web. Al archivo .html se le indica mediante el elemento link, de la siguiente manera: -->
+# Externa: -->
+# Se guarda el .css en un archivo separado con la extensión .css. Cuando un .css es usado de forma externa, se aplica el .css (estilo) a toda la página web. Al archivo .html se le indica mediante el elemento link, de la siguiente manera: -->
 <html>
     <head>
     <link rel="stylesheet.css" type="text/css" href="stylesheet.css">
@@ -23,8 +23,8 @@
     </body>
 </html>
 
-<!-- Interna: -->
-<!-- El propio código css esta introducido en la sección head y se aplica a la pagína actual en la que está escrito.-->
+# Interna:
+# El propio código css esta introducido en la sección head y se aplica a la pagína actual en la que está escrito.
 <html>
     <head>
      <style>
@@ -39,8 +39,8 @@
          </body>
 </html>
 
-<!-- Interlineado: -->
-<!--El códio css va escrito dentro de la misma linea del elemento. De esta manera, se aplica solamente a la línea escrita.-->
+# Interlineado:
+# El códio css va escrito dentro de la misma linea del elemento. De esta manera, se aplica solamente a la línea escrita.
 <html>
   <head>
   </head>
@@ -67,5 +67,19 @@
 </html>
 
 ##como se puede incluir javascript en HTML
+# javascript se puede incluir de 2 maneras, una vez en la sección head o en la sección body:
+<html>
+  <head>
+    <script>El códio javascript puede ir aqui</script>
+  </head>
+   <body>
+        <script>También se podría poner aqui.</script>
+   </body>
+</html> 
 
+##Que diferencia hay entre una clase y una ID
+#Una ID es una etiqueta que debe de ser única. Los diferentes identificadores deben de ser únicos.
+#Una clase se puede aplicar a 
+<html>
+    
 ```
