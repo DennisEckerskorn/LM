@@ -13,8 +13,8 @@
 </html>
 
 ##Explica las 3 formas de usar css en html
-//Externa:
-//Se guarda el .css en un archivo separado con la extensión .css. Cuando un .css es usado de forma externa, se aplica el .css (estilo) a toda la página web. Al archivo .html se le indica mediante el elemento link, de la siguiente manera:
+<!-- Externa: -->
+<!-- Se guarda el .css en un archivo separado con la extensión .css. Cuando un .css es usado de forma externa, se aplica el .css (estilo) a toda la página web. Al archivo .html se le indica mediante el elemento link, de la siguiente manera: -->
 <html>
     <head>
     <link rel="stylesheet.css" type="text/css" href="stylesheet.css">
@@ -23,21 +23,32 @@
     </body>
 </html>
 
-//Interna:
-//El propio código css esta introducido en la sección head y se aplica a la pagína actual en la que está escrito.
+<!-- Interna: -->
+<!-- El propio código css esta introducido en la sección head y se aplica a la pagína actual en la que está escrito.-->
 <html>
     <head>
+     <style>
     p {
     color: red;
     background-color: yellow;
     }
+     </style>
     </head>
          <body>
             <p>Este texto tiene el fondo amarillo y el texto en rojo.</p>
          </body>
 </html>
 
-//Interlineado
+<!-- Interlineado: -->
+<!--El códio css va escrito dentro de la misma linea del elemento. De esta manera, se aplica solamente a la línea escrita.-->
+<html>
+  <head>
+  </head>
+   <body style="background-color:green; font-family: courier;">
+      <p style="color blue;font-family:courier;">Este texto se muestra de color azul  de la fuente courier.</p>
+   </body>
+</html>
+    
 
 ##crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 <html>
@@ -56,4 +67,5 @@
 </html>
 
 ##como se puede incluir javascript en HTML
+
 ```
