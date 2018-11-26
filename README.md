@@ -23,6 +23,22 @@
     </body>
 </html>
 
+//Interna:
+//El propio código css esta introducido en la sección head y se aplica a la pagína actual en la que está escrito.
+<html>
+    <head>
+    p {
+    color: red;
+    background-color: yellow;
+    }
+    </head>
+         <body>
+            <p>Este texto tiene el fondo amarillo y el texto en rojo.</p>
+         </body>
+</html>
+
+//Interlineado
+
 ##crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 <html>
     <head>
