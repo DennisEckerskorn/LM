@@ -174,7 +174,7 @@ h1,h2 {
     color:blue;
 }
 
-#Selectordescendente: Seleccion elementos dentro de otros elementos:
+#Selector descendente: Seleccion elementos dentro de otros elementos:
 a span {
     color:red;}
 <a href="link"><span>Texto en rojo</span></a>
@@ -194,17 +194,31 @@ a span {
 }
 <p id="especial">Texto especial</p>
 
+#Selector de hijos: Se usa para seleccionar el hijo directo de un elemento. Es decir, si tienes 3 elementos dentro de un párrafo se aplica al primer elemento, pero no se aplica al segundo o tercero. Se indica de la siguiente forma:
+p > span { 
+    color: blue;
+}
+<p><span>Texto1</span></p>
+<p><a href="#"><span>Texto2</span></a></p>
+
+#Selector adyacente: Se usa para seleccionar  un elemento de la misma familia que va justo a continuación del primero. Ejemplo:
+h1 + h2 {
+    color:red;
+}
+<h1>Texto1</h1>
+    <h2>Texto2</h2> Este texto se vuelve rojo.
+
 ##Di a quien afectan:
 
-    p a { color: red; }
+    p a { color: red; } : Selector descendente, selecciona el elemento a dentro del elemento p.
 
-    p > a { color: red; }
+    p > a { color: red; } Selector de hijos, selecciona al primer hijo directo, en este caso al primer elemento a dentro del elemento p.
 
-    h1 + h2 { color: red }
+    h1 + h2 { color: red }Selector adyacente: selecciona el elemento que esta justo a continuación del primer elemento. En este caso h2 estaría en rojo. 
 
-    a[class] { color: blue; }
+    a[class] { color: blue; }: Todas las etiquetas a (enlaces) se vuelven azul. Se refiere a todas las etiquetas adel documento.
 
-    a[class="externo"] { color: blue; }
+    a[class="externo"] { color: blue; }: Se refiere a un selector de clase, aplica el estilo del selector "externo". Las etiquetas a que contengan el atributo class="externo" se vuelven azul.
 
-    a[href="http://www.ejemplo.com"] { color: blue; }
+    a[href="http://www.ejemplo.com"] { color: blue; }: Todos los enlaces (http://www.ejemplo.com) que sean igual al anterior indicado se aplica el texto de color azul.
 ```
