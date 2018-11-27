@@ -66,7 +66,7 @@
     </body>
 </html>
 
-##como se puede incluir javascript en HTML
+##Como se puede incluir javascript en HTML
 # javascript se puede incluir de 2 maneras, una vez en la sección head o en la sección body:
 <html>
   <head>
@@ -125,7 +125,7 @@
 #Las pseudoclases son usadas para  indicar el estado de un elemento. Por ejemplo hacer resaltar un enlace cuando pasas con el raton por encima o cambiar el color después de haber visitado un enlace. Por ejemplo:
 <html>
     <head>
-    <style>
+      <style>
         a:link {
             color: blue;
         }
@@ -138,11 +138,11 @@
         a:active {
             color: green;
         }
-    </style>
-    </head>
+      </style>
+   </head>
     <body>
-    <a href>Pruebalo</a>
-    <a href>Segunda prueba</a>
+        <a href>Pruebalo</a>
+        <a href>Segunda prueba</a>
     </body>
 </html>
  #También se puede usar con pseudoclase :first-child la cual se aplicaria al primero de cada elemento.   
@@ -162,8 +162,10 @@ div {
 }
 #width and height se usan junto a margin, padding y border para definir un tamaño de caja preciso. De este modo se puede aplicar a varias cajas de una página web.
 
+
 ##Explica que son los selectores de CSS y pon ejemplos
 #Existen diferentes tipos de selectores y se usan (como dice el nombre) para seleccionar elementos html, básicamente son los nombres que se usan en css para definir cada estilo.Algunos ejemplos:
+
 #-Selector universal: Selecciona toda la página y le aplica el estilo. Se indica asi: 
 * {
    margin:0px; padding:0px;
@@ -207,6 +209,7 @@ h1 + h2 {
 }
 <h1>Texto1</h1>
     <h2>Texto2</h2> Este texto se vuelve rojo.
+
 
 ##Di a quien afectan:
 
