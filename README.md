@@ -78,9 +78,89 @@
 </html> 
 
 ##Que diferencia hay entre una clase y una ID
-#Una ID es una etiqueta que debe de ser única en el documento. Los diferentes identificadores deben de ser únicos.
-
-#Las clases definen un mismo estilo para varios elementos.
+#Una ID es una etiqueta que debe de ser única en el documento. Los diferentes identificadores deben de ser únicos. Por ejemplo:
 <html>
-    
+    <head>
+    <style>
+    #ejemplo {
+            background-color: black;
+            color: yellow;
+            border: 20px solid red;
+            margin: 50px;
+            padding:20px;
+        }
+    </style>
+    </head>
+    <body>
+    <h1 id="ejemplo">Se aplica el css solo en este elemento</h1>
+    </body>
+</html>
+
+#Las clases definen un mismo estilo para varios elementos. Por ejemplo:
+<html>
+    <head>
+    <style>
+        .ejemplo {
+            border: 50px solid black;
+            margin:20px;
+            padding: 20px;
+    }
+    </style>
+    </head>
+    <body>
+    <h1 class="ejemplo"> El título se muestra con un borde en negro con sus ajustes</h1>
+    </body>
+</html>
+
+##Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
+<html>
+    <head>
+    </head>
+    <body>
+        <a href="http://blog.elinsti.com/index.php/2018/11/23/ejercicios-html-y-css/" target="_blank"> Visita este enlace</a>
+    </body>
+</html>
+
+##¿Qué son las pseudoclases?, pon ejemplos.
+#Las pseudoclases son usadas para  indicar el estado de un elemento. Por ejemplo hacer resaltar un enlace cuando pasas con el raton por encima o cambiar el color después de haber visitado un enlace. Por ejemplo:
+<html>
+    <head>
+    <style>
+        a:link {
+            color: blue;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: yellow;
+        }
+        a:active {
+            color: green;
+        }
+    </style>
+    </head>
+    <body>
+    <a href>Pruebalo</a>
+    <a href>Segunda prueba</a>
+    </body>
+</html>
+ #También se puede usar con pseudoclase :first-child la cual se aplicaria al primero de cada elemento.   
+
+
+##Explica el modelo de caja de CSS (margin, border y padding)
+#Cada elemento HTML se puede considerar envuelto por una caja, la cual se puede personalizar como se necesita.
+#El modelo de caja de CSS funciona de la siguiente manera:
+#margin: Define el espacio fuera de los bordes. Es transparente.
+#border: Define los 4 bordes de la caja, se indica en px y se puede definir cada lado de diferentes px (border-top,border-bottom,border-right,border-left).
+#padding: Define el espacio entre el contenido de la caja y los bordes. Se indica en px y es transparente.
+Ejemplo de una caja con un borde de 20px, un margin de 10px y un padding de 30px:
+div {
+    border:20px solid black;
+    margin:10px;
+    padding:30px;
+}
+#width and height se usan junto a margin, padding y border para definir un tamaño de caja preciso. De este modo se puede aplicar a varias cajas de una página web.
+
+##Explica que son los selectores de CSS y pon ejemplos
 ```
