@@ -78,7 +78,7 @@
 </html> 
 
 ##Que diferencia hay entre una clase y una ID
-#Una ID es una etiqueta que debe de ser única en el documento. Los diferentes identificadores deben de ser únicos. Por ejemplo:
+#Una ID es una etiqueta que debe de ser única en el documento. No puede aplicarse a dos diferentes elementos en la misma página con el mismo valor ID. Se indica con una #.Por ejemplo:
 <html>
     <head>
     <style>
@@ -163,4 +163,48 @@ div {
 #width and height se usan junto a margin, padding y border para definir un tamaño de caja preciso. De este modo se puede aplicar a varias cajas de una página web.
 
 ##Explica que son los selectores de CSS y pon ejemplos
+#Existen diferentes tipos de selectores y se usan (como dice el nombre) para seleccionar elementos html, básicamente son los nombres que se usan en css para definir cada estilo.Algunos ejemplos:
+#-Selector universal: Selecciona toda la página y le aplica el estilo. Se indica asi: 
+* {
+   margin:0px; padding:0px;
+}
+
+#-Selector de etiqueta o tipo: Selecciona una o varias etiquetas indicadas y aplica los estilosa las etiquetas. Ejemplo:
+h1,h2 {
+    color:blue;
+}
+
+#Selectordescendente: Seleccion elementos dentro de otros elementos:
+a span {
+    color:red;}
+<a href="link"><span>Texto en rojo</span></a>
+
+#Selector de clase: Cuando se quiere aplicar un estilo diferente a los mismos elementos (por ejemplo un párrafo) se usa un selector de classe.Ejemplo:
+.estilo {
+   color:red;
+}
+<p class="estilo">Texto</p>
+<p>Texto</p>
+<p class="estilo">Texto</p>
+
+#Selector id: El selector ID sirve para seleccionar solamente un elemento en la página. Por ejemplo, le aplicamos a un solo párrafo un estilo con la etiueta id:
+#especial {
+    color:red;
+    font-family: courier;
+}
+<p id="especial">Texto especial</p>
+
+##Di a quien afectan:
+
+    p a { color: red; }
+
+    p > a { color: red; }
+
+    h1 + h2 { color: red }
+
+    a[class] { color: blue; }
+
+    a[class="externo"] { color: blue; }
+
+    a[href="http://www.ejemplo.com"] { color: blue; }
 ```
