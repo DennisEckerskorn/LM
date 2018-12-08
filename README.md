@@ -1,4 +1,5 @@
 # LM
+#
 # Estructura mínima de una web
 <html>
     <head>
@@ -10,7 +11,6 @@
 # Explica las 3 formas de usar css en html
 ## Externa: -->
 ### Se guarda el .css en un archivo separado con la extensión .css. Cuando un .css es usado de forma externa, se aplica el .css (estilo) a toda la página web. Al archivo .html se le indica mediante el elemento link, de la siguiente manera: -->
-html´´´
 <html>
     <head>
     <link rel="stylesheet.css" type="text/css" href="stylesheet.css">
@@ -18,7 +18,6 @@ html´´´
     <body>
     </body>
 </html>
-´´´
 # Interna:
 ## El propio código css esta introducido en la sección head y se aplica a la pagína actual en la que está escrito.
 <html>
