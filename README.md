@@ -1,13 +1,13 @@
 # LM
-#
 # Estructura mínima de una web
+```
 <html>
     <head>
     </head>
     <body>
     </body>
 </html>
-
+```
 # Explica las 3 formas de usar css en html
 ## Externa: -->
 ### Se guarda el .css en un archivo separado con la extensión .css. Cuando un .css es usado de forma externa, se aplica el .css (estilo) a toda la página web. Al archivo .html se le indica mediante el elemento link, de la siguiente manera: -->
@@ -219,3 +219,4 @@ h1 + h2 {
     a[class="externo"] { color: blue; }: Se refiere a un selector de clase, aplica el estilo del selector "externo". Las etiquetas a que contengan el atributo class="externo" se vuelven azul.
 
     a[href="http://www.ejemplo.com"] { color: blue; }: Todos los enlaces (http://www.ejemplo.com) que sean igual al anterior indicado se aplica el texto de color azul.
+    ´´´
