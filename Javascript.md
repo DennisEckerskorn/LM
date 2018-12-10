@@ -17,6 +17,6 @@ Flexbox (Caja Flexible) es un módulo de diseño en CSS3 (Propiedad) y es una fo
 + Flexbox facilita la forma en la que posicionamos elementos, es más simple y usa menos código.  
 + Permite crear páginas web dinámicas, flexibles y fluidas.
 ```
-[Referencia](https://filisantillan.com/el-gran-poder-de-css3-flexbox/)
-[Referencia](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox)
+[Referencia](https://filisantillan.com/el-gran-poder-de-css3-flexbox/)  
+[Referencia](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox)  
 [Referencia](https://www.emenia.es/flexbox-la-caja-flexible-css3/)
