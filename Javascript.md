@@ -7,4 +7,10 @@ Para que las aplicaciones puedan ser desarolladas para Windows, Linux y Mac, com
 ```
 [Enlace a la página oficial.](https://electronjs.org/)  
 [Sobre Electron](https://electronjs.org/docs/tutorial/about)  
-[Guía de inicio](https://electronjs.org/docs/tutorial/quick-start)  
+[Guía de inicio](https://electronjs.org/docs/tutorial/quick-start)
+
+# Flexbox
+### Definición:
+```
+def
+```
