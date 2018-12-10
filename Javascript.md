@@ -12,5 +12,9 @@ Para que las aplicaciones puedan ser desarolladas para Windows, Linux y Mac, com
 # Flexbox
 ### Definición:
 ```
-def
+Flexbox es un módulo de diseño en CSS3 (Propiedad) y es una forma muy útil para crear páginas web responsivas.  
+Es un método para ayudar a distribuir los elementos de una interfaz y mejorar la capacidad de alineación.  
+Usando Flexbox evitamos usar el módulo de diseño (propiedad) float.  
+Aparte Flexbox facilita la forma en la que posicionamos elementos, es más simple y usa menos código.
 ```
+[Referencia](https://filisantillan.com/el-gran-poder-de-css3-flexbox/)
