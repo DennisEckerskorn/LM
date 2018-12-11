@@ -28,6 +28,10 @@ Flexbox (Caja Flexible) es un módulo de diseño en CSS3 (Propiedad), es una for
 Javascript es un lenguaje de programación que se usa para añadir contenido dinámico e inteligente a una página web, como por ejemplo:  
 añadir efectos animados, controlar archivos multimedia, hacer aparecer o desaparecer textos o imágenes, realizar cálculos y mostrar sus resultados. Es un lenguaje que sirve para dar respuestas rápidas a las acciones del usuario sin necesidad de sincronizarse con el servidor, lo que permite ejecutar el código localmente.
 ```
-[Referencia 1](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Qu%C3%A9_es_JavaScript)
+[Referencia 1](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Qu%C3%A9_es_JavaScript)  
 [Referencia 2](https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=777:ique-es-javascript-principales-usos-servidor-y-cliente-html-css-y-programacion-efectos-cu01103e&catid=78&Itemid=206)  
 
+## Diferentes usos de javascript
+```
+
+```
