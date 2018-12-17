@@ -23,9 +23,9 @@ igual que en el proceso main.
 Flexbox (Caja Flexible) es un módulo de diseño en CSS3 (Propiedad), es una forma muy útil para crear páginas  
 web responsivasy es un método para ayudar a distribuir los elementos de una interfaz y mejorar  
 la capacidad de alineación de la misma.  
--Usando Flexbox evitamos usar el módulo de diseño (propiedad) float.  
--Flexbox facilita la forma en la que posicionamos elementos, es más simple y usa menos código.  
--Permite crear páginas web dinámicas, flexibles y fluidas.
+- Usando Flexbox evitamos usar el módulo de diseño (propiedad) float.  
+- Flexbox facilita la forma en la que posicionamos elementos, es más simple y usa menos código.  
+- Permite crear páginas web dinámicas, flexibles y fluidas.
 
 [Referencia 1](https://filisantillan.com/el-gran-poder-de-css3-flexbox/)  
 [Referencia 2](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox)  
@@ -47,7 +47,7 @@ sincronizarse con el servidor, lo que permite ejecutar el código localmente.
 ## Diferentes usos de javascript
 
 El uso de javascript se divide en dos tipos de usos diferentes:
--Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica  
+- Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica  
 dentro de la etiqueta <style></style>.Ejemplo:  
 ```
 <html>  
@@ -62,7 +62,7 @@ Se suele usar cuando el código javascript no es demasiado largo, de esta manera
 web carga más rápida ya que no tiene que acceder un archivo externo y realizar otra  
 tarea simultánea al conectarse al servidor.  
 
--Externo: El código javascript se guarda en un archivo externo con la extensión .js.  
+- Externo: El código javascript se guarda en un archivo externo con la extensión .js.  
 En el documento HTML se indica la ruta del archivo entre las etiquetas.  
 ```
 <html>  
