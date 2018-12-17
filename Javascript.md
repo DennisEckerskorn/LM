@@ -69,6 +69,10 @@ En el documento HTML se indica la ruta del archivo entre las etiquetas.
       <script type="text/javascript" src="./javascript.js">  
        </script>  
      </head>  
-</html>
-
+</html>  
 ```
+#Frameworks de javascript más famosos
+```
+- (JQuery)
+```
+
