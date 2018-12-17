@@ -64,9 +64,11 @@ tarea simultánea al conectarse al servidor.
 
 -Externo: El código javascript se guarda en un archivo externo con la extensión .js.  
 En el documento HTML se indica la ruta del archivo entre las etiquetas.  
-```
-<style type="text/javascript" src="./javascript.js">  
-</script>
-```
+<html>  
+     <head>  
+      <script type="text/javascript" src="./javascript.js">  
+       </script>  
+     </head>  
+</html>
 
 ```
