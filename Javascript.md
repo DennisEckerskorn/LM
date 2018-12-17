@@ -33,7 +33,7 @@ añadir efectos animados, controlar archivos multimedia, hacer aparecer o desapa
 
 ## Diferentes usos de javascript
 ```
-El uso de javascript se divide en dos modos:
+El uso de javascript se divide en dos tipos de usos diferentes:
 -Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica dentro de la etiqueta <style></style>.Ejemplo:  
 <script type="text/javascript">
         Aqui va el código;
