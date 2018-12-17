@@ -50,12 +50,12 @@ El uso de javascript se divide en dos tipos de usos diferentes:
 -Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica  
 dentro de la etiqueta <style></style>.Ejemplo:  
 ```
-//<html>
-      <head>
-            <script type="text/javascript">
-                        Aqui va el código;
-             </script>
-        </head>
+<html>  
+      <head>  
+            <script type="text/javascript">  
+                  Aqui va el código;  
+            </script>  
+      </head>  
 </html>
 ```        
 Se suele usar cuando el código javascript no es demasiado largo, de esta manera la página  
