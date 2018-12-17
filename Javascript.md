@@ -20,8 +20,9 @@ igual que en el proceso main.
 # Flexbox
 ### Definición y características:
 ```
-Flexbox (Caja Flexible) es un módulo de diseño en CSS3 (Propiedad), es una forma muy útil para crear páginas web responsivas  
-y es un método para ayudar a distribuir los elementos de una interfaz y mejorar la capacidad de alineación de la misma.  
+Flexbox (Caja Flexible) es un módulo de diseño en CSS3 (Propiedad), es una forma muy útil para crear páginas  
+web responsivasy es un método para ayudar a distribuir los elementos de una interfaz y mejorar  
+la capacidad de alineación de la misma.  
 -Usando Flexbox evitamos usar el módulo de diseño (propiedad) float.  
 -Flexbox facilita la forma en la que posicionamos elementos, es más simple y usa menos código.  
 -Permite crear páginas web dinámicas, flexibles y fluidas.
