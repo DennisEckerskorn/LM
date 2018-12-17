@@ -51,12 +51,12 @@ El uso de javascript se divide en dos tipos de usos diferentes:
 dentro de la etiqueta <style></style>.Ejemplo:  
 ```
 //<html>
-        //<head>
-                //<script type="text/javascript">
+      <head>
+            <script type="text/javascript">
                         Aqui va el código;
-                 //</script>
-        //</head>
-//</html>
+             </script>
+        </head>
+</html>
 ```        
 Se suele usar cuando el código javascript no es demasiado largo, de esta manera la página  
 web carga más rápida ya que no tiene que acceder un archivo externo y realizar otra  
