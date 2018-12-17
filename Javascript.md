@@ -49,20 +49,20 @@ sincronizarse con el servidor, lo que permite ejecutar el código localmente.
 El uso de javascript se divide en dos tipos de usos diferentes:
 -Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica  
 dentro de la etiqueta <style></style>.Ejemplo:  
-
+```
 <script type="text/javascript">
         Aqui va el código;
         </script>  
-        
+```        
 Se suele usar cuando el código javascript no es demasiado largo, de esta manera la página  
 web carga más rápida ya que no tiene que acceder un archivo externo y realizar otra  
 tarea simultánea al conectarse al servidor.  
 
 -Externo: El código javascript se guarda en un archivo externo con la extensión .js.  
 En el documento HTML se indica la ruta del archivo entre las etiquetas.  
-
+```
 <style type="text/javascript" src="./javascript.js">  
 </script>
-  
+```
 
 ```
