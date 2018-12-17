@@ -39,5 +39,5 @@ El uso de javascript se divide en dos modos:
         Aqui va el código;
         </script>  
 Se suele usar cuando el código javascript no es demasiado largo, de esta manera la página web carga más rápida ya que no tiene que acceder un archivo externo y realizar otra tarea simultánea al conectarse al servidor.  
--Externo: El código javascript se guarda en un archivo externo con la extensión .js. En el documento HTML se indica la ruta del archivo entre las etiquetas
+-Externo: El código javascript se guarda en un archivo externo con la extensión .js. En el documento HTML se indica la ruta del archivo entre las etiquetas.
 ```
