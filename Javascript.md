@@ -73,6 +73,6 @@ En el documento HTML se indica la ruta del archivo entre las etiquetas.
 ```
 #Frameworks de javascript más famosos
 ```
-- (JQuery)
+-(JQuery)
 ```
 
