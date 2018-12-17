@@ -1,11 +1,17 @@
 # ElectronJS
 ### Definición y sus enlaces:
 ```
-ElectronJS es una biblioteca de código abierto hecho por GitHub,  
-que se usa para crear aplicaciones de escritorio multiplataforma.  
-Se emplean los lenguajes de HTML, CSS y Javascript.  
-Para que las aplicaciones puedan ser desarolladas para Windows,  
-Linux y Mac, combina Chromium y node.js en un mismo ejecutable.
+ElectronJS es una biblioteca de código abierto hecha por GitHub, que se usa para crear aplicaciones  
+de escritorio multiplataforma con los lenguajes web HTML, CSS y Javascript. ElectronJS es creada y  
+mantenida por Github.  
+ElectronJS esta comopuesto por dos procesos, el proceso main y el proceso renderer.  
+El proceso main es un proceso de node.js y es el proceso principal, digamos que es  
+nuestra aplicación en si misma, este proceso tiene acceso a varias API de Electron.js  
+para poder comunicarse con nuestro Sistema Operativo.  
+El procesos renderer es un proceso de Chromium que tiene un Node.js incorporado y puede acceder  
+a diferentes módulos, aparte los que instalemos con npm. Esto permite usar librerías como por ejemplo:  
+React.js, Angular.js, Polymer, etc. En el proceso renderer también se permite el acceso a unas pocas API  
+igual que en el proceso main.
 ```
 [Enlace a la página oficial.](https://electronjs.org/)  
 [Sobre Electron](https://electronjs.org/docs/tutorial/about)  
