@@ -19,14 +19,14 @@ igual que en el proceso main.
 
 # Flexbox
 ### Definición y características:
-```
+
 Flexbox (Caja Flexible) es un módulo de diseño en CSS3 (Propiedad), es una forma muy útil para crear páginas  
 web responsivasy es un método para ayudar a distribuir los elementos de una interfaz y mejorar  
 la capacidad de alineación de la misma.  
 -Usando Flexbox evitamos usar el módulo de diseño (propiedad) float.  
 -Flexbox facilita la forma en la que posicionamos elementos, es más simple y usa menos código.  
 -Permite crear páginas web dinámicas, flexibles y fluidas.
-```
+
 [Referencia 1](https://filisantillan.com/el-gran-poder-de-css3-flexbox/)  
 [Referencia 2](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox)  
 [Referencia 3](https://www.emenia.es/flexbox-la-caja-flexible-css3/)  
@@ -34,7 +34,7 @@ la capacidad de alineación de la misma.
 
 # ¿Qué es javascript y sus usos?
 ## Definición javascript:
-```
+
 Javascript es un lenguaje de programación que se usa para añadir contenido dinámico e inteligente a una  
 página web, como por ejemplo: añadir efectos animados, controlar archivos multimedia,  
 hacer aparecer o desaparecer textos o imágenes, realizar cálculos y mostrar sus resultados.  
@@ -72,7 +72,6 @@ En el documento HTML se indica la ruta del archivo entre las etiquetas.
 </html>  
 ```
 #Frameworks de javascript más famosos
-```
 -(JQuery)
-```
+
 
