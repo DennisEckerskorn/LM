@@ -1,5 +1,5 @@
 # ElectronJS
-### Definición y sus enlaces:
+### Definición:
 
 ElectronJS es una biblioteca de código abierto hecha por GitHub, que se usa para crear aplicaciones  
 de escritorio multiplataforma con los lenguajes web HTML, CSS y Javascript. ElectronJS es creada y  
