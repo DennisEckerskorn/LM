@@ -1,5 +1,5 @@
 # Asignatura: Lenguajes de Marcas
-# Estructura mínima de una web
+## Estructura mínima de una web
 ```
 <html>
     <head>
@@ -241,16 +241,14 @@ h1 + h2 {
 ```
 
 ## Di a quien afectan:
-
-    p a { color: red; } : Selector descendente, selecciona el elemento a dentro del elemento p.
-
-    p > a { color: red; } Selector de hijos, selecciona al primer hijo directo, en este caso al primer elemento a dentro del elemento p.
-
-    h1 + h2 { color: red }Selector adyacente: selecciona el elemento que esta justo a continuación del primer elemento. En este caso h2 estaría en rojo. 
-
-    a[class] { color: blue; }: Todas las etiquetas a (enlaces) se vuelven azul. Se refiere a todas las etiquetas adel documento.
-
-    a[class="externo"] { color: blue; }: Se refiere a un selector de clase, aplica el estilo del selector "externo". Las etiquetas a que contengan el atributo class="externo" se vuelven azul.
-
-    a[href="http://www.ejemplo.com"] { color: blue; }: Todos los enlaces (http://www.ejemplo.com) que sean igual al anterior indicado se aplica el texto de color azul.
-    ´´´
+- p a { color: red; } : Selector descendente, selecciona el elemento a dentro del elemento p.
+- p > a { color: red; } Selector de hijos, selecciona al primer hijo directo, en este caso  
+al primer elemento a dentro del elemento p.
+- h1 + h2 { color: red }Selector adyacente: selecciona el elemento que esta justo a  
+continuación del primer elemento. En este caso h2 estaría en rojo. 
+- a[class] { color: blue; }: Todas las etiquetas a (enlaces) se vuelven azul.  
+Se refiere a todas las etiquetas adel documento.
+- a[class="externo"] { color: blue; }: Se refiere a un selector de clase, aplica  
+el estilo del selector "externo". Las etiquetas a que contengan el atributo class="externo" se vuelven azul.
+- a[href="http://www.ejemplo.com"] { color: blue; }: Todos los enlaces (http://www.ejemplo.com)  
+que sean igual al anterior indicado se aplica el texto de color azul.
