@@ -53,6 +53,8 @@ Ejemplo: Escribir actualizaciones en redes sociales, recibir notificaciones en t
 - Manipular la estructura de las páginas (DOM).  
 - Convertir las páginas en aplicaciones web, con las que se puede jugar, oír música o ver video, editar imágenes, etc.  
 
+Para extender las funciones de javascript se usan Frameworks. Existen muchas librerías, algunas se listarán más adelante...
+
 ### Formas de incluir javascript en el documento HTML
 - Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica  
 dentro de la etiqueta <style></style>.Ejemplo:  
