@@ -55,6 +55,9 @@ Ejemplo: Escribir actualizaciones en redes sociales, recibir notificaciones en t
 
 Para extender las funciones de javascript se usan Frameworks. Existen muchas librerías, algunas se listarán más adelante...
 
+[Usos](https://norfipc.com/inf/que-es-lenguaje-javascript-introduccion-usos-practicos.html)
+[Más información y usos](https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=777:ique-es-javascript-principales-usos-servidor-y-cliente-html-css-y-programacion-efectos-cu01103e&catid=78&Itemid=206)  
+
 ### Formas de incluir javascript en el documento HTML
 - Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica  
 dentro de la etiqueta <style></style>.Ejemplo:  
