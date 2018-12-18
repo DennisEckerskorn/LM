@@ -45,8 +45,15 @@ sincronizarse con el servidor, lo que permite ejecutar el código localmente.
 [Más información y usos](https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=777:ique-es-javascript-principales-usos-servidor-y-cliente-html-css-y-programacion-efectos-cu01103e&catid=78&Itemid=206)  
 
 ## Diferentes usos de javascript
+Con javascript es posible realizar cálculos matemáticos y todo tipo de tareas relacionada  
+con fechas, el tiempo, la hora y otras funciones de programación. Algunas características son:  
+- Facilitar al usuario interactuar con el contenido de la página con botones, enlaces, bloques.
+- Enviar o transferir datos desde el servidor sin tener que refrescar la página, usando AJAX.  
+Ejemplo: Escribir actualizaciones en redes sociales, recibir notificaciones en tiempo real, enviar y recibir mensajes.
+- Manipular la estructura de las páginas (DOM).  
+- Convertir las páginas en aplicaciones web, con las que se puede jugar, oír música o ver video, editar imágenes, etc.  
 
-El uso de javascript se divide en dos tipos diferentes:
+### Formas de incluir javascript en el documento HTML
 - Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica  
 dentro de la etiqueta <style></style>.Ejemplo:  
 ```
