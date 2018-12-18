@@ -88,8 +88,12 @@ Angular.js es una librería de Javascript que se utiliza para crear y mantener a
 Permite extender el vocabulario HTML con directivas y atributos, manteniendo la semántica. Modifica el DOM directamente.  
 
 - [Vue.js](https://vuejs.org/)
+Vue.js es un framework progresivo para construir interfaces de usuario. La biblioteca principal solamente se enfoca  
+en la capa de la vista y aparte es muy simple de usar e integrar con otras biliotecas.  
 
-- BackBone.js
+- [BackBone.js](http://backbonejs.org/)
+Backbone.js es un framwork que sirve para construir aplicaciones web usando Javascript siguiendo  
+el patrón /*modelo-vista-controlador*/ (MVC).
 - Video.js
 
 
