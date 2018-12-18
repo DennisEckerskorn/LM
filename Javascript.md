@@ -78,8 +78,8 @@ Es una librería escrita en javascript, desarollada en Facebook para la creació
 de componentes interactivos, reutilizables para interfaces de usuario. Una característica destacable  
 es que no solo se puede usar en el lado del cliente(local) sino también se puede representar en el servidor.
 - [JQuery.js](https://jquery.com/)
-Es una librería de javascript rápida, pequeña y llena de funciones. Sirve para la manipulación de documentos html,  
-como por ejemplo, manejar eventos, manejar animaciones, etc. Hace el uso de javascript bastante más simple.
+Es una librería de javascript rápida, pequeña y llena de funciones. Sirve para la manipulación de documentos html,como por ejemplo, manejar eventos, manejar animaciones, etc.  
+Hace el uso de javascript bastante más simple.
 - Angular.js
 - Foundation.js
 - BackBone.js
