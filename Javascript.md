@@ -27,7 +27,14 @@ la capacidad de alineación de la misma.
 - Flexbox facilita la forma en la que posicionamos elementos, es más simple y usa menos código.  
 - Permite crear páginas web dinámicas, flexibles y fluidas.  
 Para usar flexbox hay que saber algunos elementos básicos, que son los siguientes:  
+
 ![alt tag](https://lenguajecss.com/p/css/propiedades/flexbox-como-funciona.png)
+  
+- Contenedor: Elemento padre que es el contenedor que tiene en su interior todos los  
+ítems flexibles y adaptables.
+- Ítem: Cada uno de los hijos flexibles que tendrá el contenedor en su interior.
+- Eje principal: La orientación principal de los contenedores flexibles (Horizontal).
+- Eje secundario: La orientación principal de los contenedores flexibles (Vertical).
 
 [Referencia 1](https://filisantillan.com/el-gran-poder-de-css3-flexbox/)  
 [Referencia 2](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox)  
