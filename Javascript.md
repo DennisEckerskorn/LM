@@ -73,19 +73,20 @@ En el documento HTML se indica la ruta del archivo entre las etiquetas.
 </html>  
 ```
 ## Frameworks de javascript más famosos
+```
 - [React.js](https://reactjs.org/)  
 Es una librería escrita en javascript, desarollada en Facebook para la creación  
 de componentes interactivos, reutilizables para interfaces de usuario. Una característica destacable  
 es que no solo se puede usar en el lado del cliente(local) sino también se puede representar en el servidor.  
-
+```
 - [JQuery.js](https://jquery.com/)
 Es una librería de javascript rápida, pequeña y llena de funciones. Sirve para usar javascript de una forma  
-mucho más fácil. Sus funciones pueden manejar eventos, efectos y animaciones. Ádemas tiene varios plugin  
+mucho más fácil. Sus funciones pueden manejar eventos, efectos y animaciones. Ádemas tiene varios plugins  
 para cualquier tarea.  
 
 - [Angular.js](https://angularjs.org/)
 Angular.js es una librería de Javascript que se utiliza para crear y mantener aplicaciones web de una sola página.  
-Permite extender el vocabulario HTML con directivas y atributos, manteniendo la semántica. Modifica el DOM directamente.  
+Permite extender el vocabulario HTML con directivas y atributos, manteniendo la semántica. Puede modificar el DOM directamente.  
 
 - [Vue.js](https://vuejs.org/)
 Vue.js es un framework progresivo para construir interfaces de usuario. La biblioteca principal solamente se enfoca  
@@ -93,7 +94,8 @@ en la capa de la vista y aparte es muy simple de usar e integrar con otras bilio
 
 - [BackBone.js](http://backbonejs.org/)
 Backbone.js es un framwork que sirve para construir aplicaciones web usando Javascript siguiendo  
-el patrón /*modelo-vista-controlador*/ (MVC).
-- Video.js
+la arquitectura modelo-vista-controlador (MVC).  
 
-
+- [Ember.js](https://www.emberjs.com/)
+Ember.js es un framework de javascript diseñado para crear páginas web interactivas complejas.
+Incluye varias características esenciales para administrar la complejidad de las aplicaciones web.
