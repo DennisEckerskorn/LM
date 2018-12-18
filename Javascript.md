@@ -46,7 +46,7 @@ sincronizarse con el servidor, lo que permite ejecutar el código localmente.
 
 ## Diferentes usos de javascript
 
-El uso de javascript se divide en dos tipos de usos diferentes:
+El uso de javascript se divide en dos tipos diferentes:
 - Interno: El propio código puede ir situado en cualquier parte del documento HTML, se indica  
 dentro de la etiqueta <style></style>.Ejemplo:  
 ```
@@ -72,17 +72,23 @@ En el documento HTML se indica la ruta del archivo entre las etiquetas.
      </head>  
 </html>  
 ```
-#Frameworks de javascript más famosos
+## Frameworks de javascript más famosos
 - [React.js](https://reactjs.org/)  
 Es una librería escrita en javascript, desarollada en Facebook para la creación  
 de componentes interactivos, reutilizables para interfaces de usuario. Una característica destacable  
-es que no solo se puede usar en el lado del cliente(local) sino también se puede representar en el servidor.
+es que no solo se puede usar en el lado del cliente(local) sino también se puede representar en el servidor.  
+
 - [JQuery.js](https://jquery.com/)
 Es una librería de javascript rápida, pequeña y llena de funciones. Sirve para usar javascript de una forma  
 mucho más fácil. Sus funciones pueden manejar eventos, efectos y animaciones. Ádemas tiene varios plugin  
-para cualquier tarea.
-- Angular.js
-- Foundation.js
+para cualquier tarea.  
+
+- [Angular.js](https://angularjs.org/)
+Angular.js es una librería de Javascript que se utiliza para crear y mantener aplicaciones web de una sola página.  
+Permite extender el vocabulario HTML con directivas y atributos, manteniendo la semántica. Modifica el DOM directamente.  
+
+- [Vue.js](https://vuejs.org/)
+
 - BackBone.js
 - Video.js
 
