@@ -73,12 +73,11 @@ En el documento HTML se indica la ruta del archivo entre las etiquetas.
 </html>  
 ```
 ## Frameworks de javascript más famosos
-```
 - [React.js](https://reactjs.org/)  
 Es una librería escrita en javascript, desarollada en Facebook para la creación  
 de componentes interactivos, reutilizables para interfaces de usuario. Una característica destacable  
 es que no solo se puede usar en el lado del cliente(local) sino también se puede representar en el servidor.  
-```
+
 - [JQuery.js](https://jquery.com/)
 Es una librería de javascript rápida, pequeña y llena de funciones. Sirve para usar javascript de una forma  
 mucho más fácil. Sus funciones pueden manejar eventos, efectos y animaciones. Ádemas tiene varios plugins  
