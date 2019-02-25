@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Calculadora de Propinas
+        </title>
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    </head>
+    <body>
+        <div class="flexContainer">
+            <div class="container">
+                <div class="firstItem" id="title">
+                    Calculadora de Propinas
+                </div>
+
+                <div class="secondItem">
+                    Ingresa el precio de la comida <input type="number" id="precioComida">
+                </div>
+
+                <div class="thirdItem">
+                    <input type="button" id="boton" value="Calcular">
+                </div>
+
+                <div class="fourthItem">
+                    La Propina a Pagar <input type="number" id="propinaPagar">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.getElementById("boton").addEventListener("click", calcularPropina);
+
+            function calcularPropina(){
+                var precio = document.getElementById("precioComida").value;
+                var propina;
+
+                console.log("El boton funciona correctamente")
+                if (precio<50){
+                    propina = 0.2*precio;
+                }
+                if(precio>=50 || precio<=200){
+                    propina = 0.15*precio;
+                }
+                if(precio>200){
+                    propina = 0.1*precio;
+                }
+                var resultadoFinal = propina.toFixed(2);
+                document.getElementById("propinaPagar").value = resultadoFinal;
+            }
+        </script>
+    </body>
+</html>

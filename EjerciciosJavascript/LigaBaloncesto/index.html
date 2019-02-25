@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liga Baloncesto</title>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+    </head>
+
+    <body>
+    
+    <div class="flexContainer">
+        <div class="imageContainer">
+            <div class="titulo">
+                <h1>Liga de Baloncesto</h1>
+            </div>
+
+            <div class="imagen">
+                <img src="img/dep_0002.jpg" width="175px" height="100px">
+            </div> 
+        </div>
+        
+
+        <div class="introNombre">
+            <div id="formularioNombre1">
+                <p>Ingresa el nombre del primer equipo<input type="text" id="primerNombre"></input></p>
+                <input type="button" id="botonUno" value="Confirmar Nombre"></button>
+            </div>
+            
+            <div id="formularioNombre2">
+                <p>Ingresa el nombre del segundo equipo<input type="text" id="segundoNombre"></input></p>
+                <input type="button" id="botonDos" value="Confirmar Nombre"></button>
+            </div>
+        </div>
+        
+        <div class="equipos">
+            <div class="equipoLeft">
+                <h3>Equipo 1 <input type="text" id="nombreSeleccionadoUno" /></h3>
+                <p>Puntuación 1º Partido <input id="valorUno" type="number" /></p>
+                <p>Puntuación 2º Partido <input id="valorDos" type="number" /></p>
+                <p>Puntuación 3º Partido <input id="valorTres" type="number" /></p>
+                <img src="img/team1.jpg" width="315px" height="286px">
+            </div>
+
+            <div class="equipoRight">
+                <h3>Equipo 2 <input type="text" id="nombreSeleccionadoDos" /></h3>
+                <p>Puntuación 1º Partido <input id="valorCuatro" type="number" /></p>
+                <p>Puntuación 2º Partido <input id="valorCinco" type="number"></p>
+                <p>Puntuación 3º Partido <input id="valorSeis" type="number" /></p>
+                <img src="img/team2.jpeg" width="315px" height="286px">
+            </div>
+        </div>
+
+        <div class="botonResulMedia">
+            <div class="boton">
+                <input type="button" id="botonTres" value="Calcula la Media"></button>
+            </div>
+        </div>
+        
+
+        <div class="resultado">
+            <div class="mediaBox1">
+                <h3>Media de la puntuación</h3>
+                <input type="number" id="media" />  
+            </div>
+            
+            <div class="mediaBox2">
+                <h3>El Ganador es:</h3>
+                <input type="text" id="ganador" /> 
+            </div> 
+        </div>
+    </div>
+
+    <script>
+        //Reaccion de los botones
+        document.getElementById("botonTres").addEventListener("click", calcularGanador);
+        document.getElementById("botonUno").addEventListener("click",mostrarNombres);
+        document.getElementById("botonDos").addEventListener("click", mostrarNombres);
+        //Funcion para calular la media y determinar cual es el Ganador
+        function calcularGanador() {
+            console.log("Funciona Bien");
+            //Declaración de las variables que guardaran el valor introducido
+            var puntosUno = document.getElementById("valorUno").value;
+            var puntosDos = document.getElementById("valorDos").value;
+            var puntosTres = document.getElementById("valorTres").value;
+            var puntosCuatro = document.getElementById("valorCuatro").value;
+            var puntosCinco = document.getElementById("valorCinco").value;
+            var puntosSeis = document.getElementById("valorSeis").value;
+            //Variables para los resultados
+            var primerResultado = parseFloat(puntosUno) + parseFloat(puntosDos) + parseFloat(puntosTres) / 3;
+            var segundoResultado = parseFloat(puntosCuatro) + parseFloat(puntosCinco) + parseFloat(puntosSeis) / 3;
+            //variables solo con dos decimales
+            var resultadoFinal1 = primerResultado.toFixed(2);
+            var resultadoFinal2 = segundoResultado.toFixed(2);
+            //Condición para determinar el ganador
+            if (resultadoFinal1 > resultadoFinal2) {
+                document.getElementById('media').value = resultadoFinal1;
+                document.getElementById("ganador").value = document.getElementById("primerNombre").value;
+            } else {
+                document.getElementById('media').value = resultadoFinal2;
+                document.getElementById("ganador").value = document.getElementById("segundoNombre").value;
+            }
+        }
+        //Función para introducir los nombres en las casillas correspondientes
+        function mostrarNombres() {
+            console.log("Funciona");
+            var nombre1 = document.getElementById("primerNombre").value;
+            document.getElementById("nombreSeleccionadoUno").value = nombre1;
+
+            var nombre2 = document.getElementById("segundoNombre").value;
+            document.getElementById("nombreSeleccionadoDos").value = nombre2;
+        }
+
+        </script>
+    </body>
+</html>

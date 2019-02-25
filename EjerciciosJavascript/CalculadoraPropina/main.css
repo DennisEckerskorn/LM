@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(167, 182, 197);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flexContainer{
+    display: flex;
+    flex: content;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container{
+    flex-direction: column;
+}
+.firstItem{
+    font-size: 5em;
+    padding: 50px;
+}
+    #title{
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        text-align: center;
+        color: white;
+    }
+.secondItem{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    background-color: gray;
+    border-radius: 50px;
+    text-align: center;
+    font-size:2em;
+    padding: 35px;
+}
+    #precioComida{
+        font-size: 1em;
+        width:140px;
+    }
+.thirdItem{
+    text-align: center;
+    padding: 35px;
+}
+    #boton{
+        border-radius: 35px;
+        font-size: 2em;
+        text-shadow: 2px 2px 8px #FF0000;
+        background-color: gray;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+.fourthItem{
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    background-color: gray;
+    font-size: 2em;
+
+    padding: 40px;
+}
+    #propinaPagar{
+        font-size: 1em;
+        width: 140px;
+    }

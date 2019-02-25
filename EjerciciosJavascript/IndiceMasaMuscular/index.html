@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MMI</title>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+    </head>
+    <body>
+        <h1>Calcular el índice de masa muscular (IMM)</h1>
+        <div class="calcularMMI">
+            <div class="peso">
+                Peso <input type="number" id="peso" value/>KG
+            </div>
+            <div class="altura">
+                Altura <input type="number" id="altura" value/>CM
+            </div>
+            <div class="result">
+                MMI <input type="text" id="calcula" name="Resultado" value=""/>
+            </div>
+            <div class="boton">
+                <input type="button" id="button" name="button" value="Calcular" onClick="mmi()"/>
+            </div>    
+        </div>
+
+        <script type="text/javascript">
+ 
+            function mmi() {
+            var peso = document.getElementById("peso").value;
+            var altura = document.getElementById("altura").value;
+            var mmi = peso/(altura*altura);
+            document.getElementById("calcula").value = mmi;
+            console.log(mmi);
+            }
+
+        </script>
+    </body>
+</html>

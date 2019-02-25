@@ -1,0 +1,70 @@
+*{
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 
+}
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+    .imageContainer{
+        display: flex;
+        justify-content: center;
+    }
+        .titulo{
+            display: flex;
+            
+        }
+
+        .imagen{
+           display: flex;
+            
+        }
+
+    .introNombre{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .equipos{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .botonResulMedia{
+        display: flex;
+        justify-content: center;
+    }
+
+    .resultado{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+        .mediaBox1{
+            justify-content: center;
+        }
+        .mediaBox2{
+            justify-content: center;
+        }
