@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fatherFlex{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header{
+    background-color: rgb(6, 234, 255);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .menu{
+        background-color: rgb(6, 234, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        margin: 10px;
+        color: white;
+    }
+
+    .company{
+        background-color: rgb(6, 234, 255);
+        font-size: 2em;
+    }
+
+    .buttonTaskbar{
+        background-color: rgb(6, 234, 255);
+    }
+
+        div ul li{
+            display: inline;
+            margin: 10px;
+            cursor: pointer;
+        }
+        div ul li:hover{
+            text-shadow: 2px 2px rgb(185, 182, 182)
+        }
+        div ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+.section{
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    color: black;
+    justify-content: space-around;
+    height: 500px;
+}
+
+    .sideLeft{
+        width: 190px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .text{
+        width: 880px;
+        border-left: 0.5px solid rgb(175, 174, 174);
+        border-right: 0.5px solid rgb(175, 174, 174);
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .sideRight{
+        width: 190px;
+        text-align: center;
+        padding: 20px;
+    }
+
+.footer{
+    background-color: rgb(6, 234, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: white;
+}
+    .foot{
+
+    }
